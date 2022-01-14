@@ -76,22 +76,26 @@ function managerInformation() {
       {
         type: "input",
         message: "what is your engineer's name?",
-        name: "name"
+        name: "name",
+        default: "Jason Tims"
       },
       {
         type: "input",
         message: "What is your engineer's ID",
         name: "id",
+        default: "6754"
       },
       {
         type: "input",
         message: "What is your engineer's email?",
-        name: "email"
+        name: "email",
+        default: "JasonTims@gmail.com"
       },
       {
         type: "input",
         message: "What is your engineer's GitHub username",
         name: "GitHub",
+        default: "JTims"
       },
     ]).then(function(answer) {
       let engineer = new Engineer(answer.name, answer.id, answer.email, answer.GitHub)
