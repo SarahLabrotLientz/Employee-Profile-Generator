@@ -40,22 +40,26 @@ function managerInformation() {
       {
         type: "input",
         message: "what is your manager's name?",
-        name: "name"
+        name: "name",
+        default: "Sarah Labrot"
       },
       {
         type: "input",
         message: "What is your manager's id",
         name: "id",
+        default: "312"
       },
       {
         type: "input",
         message: "What is your manager's email?",
-        name: "email"
+        name: "email",
+        default: "sarah.lientz@gmail.com"
       },
       {
         type: "input",
         message: "What is your manager's office number",
         name: "number",
+        default: "912-398-7678 ext 1356"
       },
     ]).then(function(answer) {
       let manager = new Manager(answer.name, answer.id, answer.email, answer.number)

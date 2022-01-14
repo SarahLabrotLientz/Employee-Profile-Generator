@@ -1,0 +1,30 @@
+{
+  "name": "employee-profile-generator",
+  "version": "1.0.0",
+  "description": "A command-line application that takes information about employees and generates an HTML page with professional profiles for each person.",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest --verbose test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SarahLabrotLientz/Employee-Profile-Generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SarahLabrotLientz/Employee-Profile-Generator/issues"
+  },
+  "homepage": "https://github.com/SarahLabrotLientz/Employee-Profile-Generator#readme",
+  "devDependencies": {
+    "jest": "^27.4.7"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  }
+}
