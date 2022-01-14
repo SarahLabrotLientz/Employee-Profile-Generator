@@ -112,22 +112,26 @@ function managerInformation() {
       {
         type: "input",
         message: "what is your intern's name?",
-        name: "name"
+        name: "name",
+        default: "Lucy Harper"
       },
       {
         type: "input",
         message: "What is your intern's ID",
         name: "id",
+        default: "7802"
       },
       {
         type: "input",
         message: "What is your intern's email?",
-        name: "email"
+        name: "email",
+        default: "LucyHarper@gmail.com"
       },
       {
         type: "input",
         message: "What is your intern's school",
         name: "school",
+        default: "Georgia Tech"
       },
     ]).then(function(answer) {
       let intern = new Intern(answer.name, answer.id, answer.email, answer.school)
