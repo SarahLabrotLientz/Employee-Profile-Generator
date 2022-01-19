@@ -1,6 +1,6 @@
-// const App = require("./app");
+const App = require("./app");
 
-// const app = new App();
+const app = new App();
 
-// // Start Creating App
-// app.initiateApp();
+// Start Creating App
+app.initiateApp();
